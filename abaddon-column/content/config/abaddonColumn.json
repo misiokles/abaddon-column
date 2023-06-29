@@ -1,0 +1,53 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"abaddonColumn" : 
+			{
+				"name" : "Abaddon Column",
+				"templates" : {
+					"base" : { 
+					"animation" : "TPSW_BMR", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVVV", "VBV", "VBBV", "VBAV"],
+					"allowedTerrains": [ "subterra", "dirt", "lava" ] 
+					}
+				},
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 100
+				},
+				"levels": [
+				{
+					"chance": 100,
+					"guards": [
+							{ "amount": 3, "type" : "powerLichBoss" },
+							{ "amount": 20, "type" : "magogMinion" },
+							{ "amount": 3, "type" : "powerLichBoss" },
+							{ "amount": 20, "type" : "magogMinion" },
+							{ "amount": 30, "type" : "familiarMinion" },
+							{ "amount": 30, "type" : "familiarMinion" }
+					],
+				"combat_value": 5000,
+					"reward" : {
+						"value": 10000,
+							"resources": 
+							{
+								"gold" : 8000,
+								"ore" : 12,
+								"wood" : 12,
+								"crystal" : 8,
+								"sulfur" : 8,
+								"gems" : 8,
+								"mercury" : 8
+							},
+							"artifacts": [ { "class" : "TREASURE" }, { "class" : "MINOR" }, { "class" : "MAJOR" }, { "class" : "RELIC" }  ],
+							"spells" : [ { "level" : 3 }, { "level" : 4 }, { "level" : 5 } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

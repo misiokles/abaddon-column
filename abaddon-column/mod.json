@@ -1,0 +1,30 @@
+{
+	"author" : "avatar, graphic: HotA Team",
+	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
+	"description" : "New creature bank with big reward. But think twice if you dare to enter!",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Objects",
+	"name" : "Abaddon Column",
+	"version" : "1.02",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},	
+	"changelog" :
+    {
+		"1.00"   : [ "Initial release" ],
+		"1.01"   : [ "Removed yellow flag from def" ],
+        "1.02"   : [ "Update to vcmi-1.2 format" ]
+    },
+	"creatures" :
+	[
+		"config/familiarMinion",
+		"config/magogMinion",
+		"config/powerLichBoss"
+	],
+	"objects" :
+    [ 
+		"config/abaddonColumn"
+    ]	
+}
